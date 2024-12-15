@@ -1,4 +1,3 @@
-// Kullanıcı adını al ve sayfaya yerleştir
 let userName = prompt("Lütfen adınızı girin:");
 document.getElementById("myName").textContent = userName ? userName : "Misafir";
 
